@@ -8,7 +8,7 @@ st.set_page_config(page_title="Artist Official Site", layout="centered")
 st.markdown(f"""
     <style>
     .stApp {{
-        background-image: url("https://unsplash.com");
+        background-image: url("images/background.jpg");
         background-attachment: fixed;
         background-size: cover;
     }}
@@ -29,7 +29,7 @@ st.markdown('<div class="profile-frame">', unsafe_allow_html=True)
 
 # 1. プロフィール写真（URLを写真のリンクに変えてください）
 # st.image("アーティストの写真のパスまたはURL")
-st.image("https://placeholder.com", width=200)
+st.image("images/profile.png", width=200)
 
 # 2. アーティスト名と紹介
 st.title("アーティスト名 / Artist Name")
