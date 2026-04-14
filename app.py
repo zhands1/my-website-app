@@ -22,7 +22,7 @@ st.markdown(f"""
         color: #1DB954; /* アーティストっぽい色（Spotifyグリーンなど） */
     }}
     </style>
-    """, unsafe_allow_stdio=True)
+    """, unsafe_allow_html=True)
 
 # --- メインコンテンツ ---
 st.markdown('<div class="profile-frame">', unsafe_allow_html=True)
