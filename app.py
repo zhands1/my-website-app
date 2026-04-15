@@ -1,6 +1,13 @@
 import streamlit as st
 import base64
 import os
+import streamlit as st
+
+# これを一番上に書くだけで、余計なものがすべて消えます
+st.set_page_config(layout="wide")
+st.markdown("<style>footer {visibility: hidden;} header {visibility: hidden;}</style>", unsafe_allow_html=True)
+
+st.title("歌手公式サイト")
 
 # --- 1. ページの設定 (必ず最初に書く) ---
 st.set_page_config(page_title="Artist Official Site", layout="centered")
